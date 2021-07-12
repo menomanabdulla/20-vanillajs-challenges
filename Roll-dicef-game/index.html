@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game-Score Calculator</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <main>
+            <div class="card--body">
+                <button id="resetGeameBtn" class="resetBtn">+ New Game</button>
+                <div id="player01" class="player--block active">
+                    <div class="player--info">
+                        <h2 id="player01__title" class="player--title">Player 1</h2>
+                        <h3 id="player01__score" class="player--score">0</h3>
+                    </div>
+                    <div class="current--score">
+                        <span>Current</span>
+                        <h4 id="player01__current__score">0</h4>
+                    </div>
+                </div>
+                <div id="player02" class="player--block">
+                    <div class="player--info">
+                        <h2 id="player02__title" class="player--title">Player 2</h2>
+                        <h3 id="player02__score" class="player--score">0</h3>
+                    </div>
+                    <div class="current--score">
+                        <span>Current</span>
+                        <h4 id="player02__current__score">0</h4>
+                    </div>
+                </div>
+                <div id="controllerBLock" class="contoller--block">
+                    <button id="rollDiceBtn">Roll Dice</button>
+                    <button id="holdBtn">Hold</button>
+                </div>
+                <h3 id="dice" class="dice">
+                    0
+                </h3>
+            </div><!-- end card -->
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>All CSS3 Flex-box Property </title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <main>
+            <div class="card--body">
+                <h3>Mark's Data: </h3>
+                <form>
+                    <input type="text" placeholder="Mark's Mass" id="markMass"/>
+                    <input type="text" placeholder="Mark's Height"  id="markHeight"/>
+                </form>
+                <h5 id="markMassText"></h5>
+                <h5 id="markHeightText"></h5>
+            </div><!-- end card -->
+            <div class="card--body">
+                <h3>John's Data: </h3>
+                <form>
+                    <input type="text" placeholder="John's Mass" id="johnMass"/>
+                    <input type="text" placeholder="John's Height"  id="johnHeight"/>
+                </form>
+                <h5 id="johnMassText"></h5>
+                <h5 id="johnHeightText"></h5>
+            </div><!-- end card -->
+            <button id="calculateResult">
+                Calculate BMI
+            </button>
+            <div class="card--body d-flex">
+                <h3 id="result"></h3>
+            </div>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
